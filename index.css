@@ -1,0 +1,66 @@
+body{
+    align-items: center;
+    background-image: url('img.main/mainpage.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /*make the background fixed when scrolling */
+
+}
+
+#list{
+    width: 400px;
+    height: 700px;
+    max-width: 1000px;
+    max-height: 1000px;
+    min-width: 500px;
+    min-height: 500px;
+    background-color: rgba(230, 211, 189, 0.886);
+    margin: 25px auto 20px auto;
+    padding: 20px;
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h3{
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-style: italic;
+}
+
+h1, h3{
+    text-align: center;
+    padding-top: 25px;
+}
+
+.dishes{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.dishes a:visited{
+    color: gray;
+}
+
+.dishes a:hover{
+    color: rgba(200, 182, 156, 0.815);
+}
+
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+button{
+    margin: 5px;
+    padding: 5px;
+    border-radius: 0 20px 0 20px;
+    border-color: rgba(200, 182, 156, 0.815);
+    font-style: italic;
+}
+
+.dishes a{
+    text-decoration: none; /* remove the underline from links */
+}
