@@ -41,7 +41,7 @@ h1, h3{
 }
 
 .dishes a:visited{
-    color: rgba(229, 226, 226, 0.967);
+    color: rgb(255, 255, 255);
 }
 
 .dishes a:hover{
@@ -55,7 +55,7 @@ h1, h3{
 }
 
 button{
-    margin: 5px;
+    margin-top: 15px;
     padding: 5px;
     border-radius: 0 20px 0 20px;
     border-color: rgba(200, 182, 156, 0.815);
