@@ -41,11 +41,11 @@ h1, h3{
 }
 
 .dishes a:visited{
-    color: gray;
+    color: rgba(229, 226, 226, 0.967);
 }
 
 .dishes a:hover{
-    color: rgba(200, 182, 156, 0.815);
+    color: rgb(248, 171, 64);
 }
 
 .buttons{
@@ -60,6 +60,9 @@ button{
     border-radius: 0 20px 0 20px;
     border-color: rgba(200, 182, 156, 0.815);
     font-style: italic;
+    background-color: rgba(240, 203, 155, 0.907);
+    box-shadow: 0 0 15px 0 rgba(251, 250, 249, 0.941);
+    border-style: solid;
 }
 
 .dishes a{
