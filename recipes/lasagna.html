@@ -1,13 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="/recipes/lasagna.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin-recipes</title>
+    <style>
+        body{
+            background-image: url("../img.main/lagasna.jpg");
+            align-items: center;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        .all{
+            width: 75%;
+            height: 75%;
+            background-color: rgba(243, 222, 175, 0.63);
+            margin: auto;
+            padding: auto;
+            border-radius: 30px;
+            text-align: center;
+        }
+        img{
+            width: 50%;
+            height: auto;
+            border-radius: 30px;
+        }
+        .unorderlist{
+            display: inline-block;
+            text-align: left;
+        }
+    </style>
 </head>
 <body>
-    
+    <div class="all">
     <h1>World's Best Lasagna</h1>
     <p>This lasagna recipe takes a little work, but it is so satisfying and filling that it's worth it!</p>
     <br>
@@ -16,8 +43,7 @@
     <br>
     <h1 style="font-family: 'Courier New', Courier, monospace;"><strong>Ingredients</strong></h1>
     <br>
-    <div class="all">
-    <ul>
+    <ul class="unorderlist">
         <li>1 pound sweet Italian sausage</li>
         <li>¾ pound lean ground beef</li>
         <li>½ cup minced onion</li>
@@ -39,7 +65,6 @@
         <li>¾ pound mozzarella cheese, sliced</li>
         <li>¾ cup grated Parmesan cheese</li>
     </ul>
-    </div>
     <br>
     <br>
     <h1 style="font-family: 'Courier New', Courier, monospace;"><strong>Directions</strong></h1>
@@ -109,7 +134,7 @@
     <br>
     <br>
     <h1><strong><em>Reference:</em></strong><a href="https://www.allrecipes.com/" target="_blank" rel="noopener noreferrer">Allrecipes</a></h1>
-    
+    </div>
 
 </body>
 </html>
