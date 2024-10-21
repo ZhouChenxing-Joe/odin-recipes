@@ -35,13 +35,17 @@ h1, h3{
     padding-top: 25px;
 }
 
+a{
+    color: rgb(255, 255, 255);
+}
+
 .dishes{
     text-align: center;
     padding-top: 20px;
 }
 
 .dishes a:visited{
-    color: rgb(255, 255, 255);
+    color: rgb(112, 111, 111);
 }
 
 .dishes a:hover{

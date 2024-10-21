@@ -1,0 +1,16 @@
+body{
+    /*background-image: url('../img.main/lagasna.jpg');*/
+    background-color: red;
+}
+
+.all{
+    width: 500px;
+    height: 1000px;
+    color: rgb(17, 204, 204);
+    align-items: center;
+    display: block;
+}
+
+.unorderlist{
+    align-items: center;
+}
