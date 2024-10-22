@@ -4,8 +4,87 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin-recipes</title>
+    <style>
+        body{
+            background-image: url("../img.main/lagasna.jpg");
+            align-items: center;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            color: rgba(255, 255, 255, 0.959);
+        }
+        .all{
+            width: 50%;
+            height: 65%;
+            background-color: rgba(0, 0, 0, 0.678);
+            margin: auto;
+            padding: auto;
+            border-radius: 30px;
+            text-align: center;
+        }
+        img{
+            width: 40%;
+            height: auto;
+            border-radius: 30px;
+        }
+        ul{
+            display: inline-block;
+            text-align: left;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 120%;
+            font-weight: bold;
+            font-style: oblique;
+        }
+       li{
+        margin-top: 15px;
+       }
+       p{
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 120%;
+        margin: 25px;
+        padding-left: 15%;
+        padding-right: 15%;
+        font-weight: bold; 
+    }
+       .editor{
+        padding: 0 25% 0 25%;
+       }
+       a{
+        color: rgba(247, 176, 45, 0.767);
+        text-decoration: none;
+        font-style: italic;
+       }
+       a:visited{
+        color: rgb(138, 129, 129);
+       }
+       a:hover{
+        color: orange;
+       }
+       .number {
+        display: flex;
+        justify-content: flex-start;
+        font-size: 70%;
+        margin: -2%;
+       }
+       .number p{
+        margin: 0 -10% 0 0;
+        text-align: center;
+       }
+       .text {
+        display: flex;
+        justify-content: flex-start;
+        font-size: 70%;
+        margin: 10% -5% 0 0;
+       }
+       .text p{
+        margin: 0 -15% 0 0;
+        text-align: center;
+       }
+    </style>
 </head>
 <body>
+    <div class="all">
     <h1 style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;"><strong>Spanakopita (Greek Spinach Pie)</strong></h1>
     <br>
     <p><em>This is an authentic Greek spanakopita pie recipe featuring layers of crispy, flaky phyllo dough and a rich spinach and feta cheese filling. Serve warm for an impressive but easy to make vegetarian main dish.</em></p>
@@ -25,6 +104,7 @@
         <li>2 large eggs, lightly beaten</li>
         <li>8 sheets phyllo dough</li>
         <li>¼ cup olive oil, or as needed</li>
+    </ul>
         <br>
         <br>
         <br>
@@ -92,13 +172,24 @@
         <br>
         <h1 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: large;">Nutrition Facts</h1>
         <br>
-        <p><strong>494 35g 32g 18g</strong></p>
-        <p>Calories   Fat   Carbs   Protein</p>
+        <div class="number">
+        <p>494</p>
+        <p>35g</p>
+        <p>32g</p>
+        <p>18g</p>
+        </div>
+        <div class="text">
+        <p>Calories</p>
+        <p>Fat</p> 
+        <p>Carbs</p>        
+        <p>Protein</p>           
+        </div>
         <br>
         <br>
         <br>
         <h1><strong><em>Reference:</em></strong><a href="https://www.allrecipes.com/" target="_blank" rel="noopener noreferrer">Allrecipes</a></h1>
 
-    </ul>
+    
+    </div>
 </body>
 </html>
